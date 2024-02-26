@@ -17,9 +17,9 @@ function App() {
       >
         <Sidebar />
 
-        <GridItem colSpan={4} bg="grey.500" >
+        <GridItem colSpan={4}  bg="grey.500" >
 
-        <Routes>
+        <Routes  >
           {routes.length > 0
             ? routes.map((r, i) => (
                 <Route key={i} path={r.path} element={<r.component />} />
